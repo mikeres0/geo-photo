@@ -40,7 +40,8 @@ def add_geolocation(image_path, latitude, longitude):
     print("Geolocation data added to", image_path)
 
 def main():
-    folder_path = os.getcwd()
+    #folder_path = os.getcwd()
+    folder_path = "image_folder"
     new_latitude = 52.9483758  
     new_longitude = -1.1481887  
 
