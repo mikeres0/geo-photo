@@ -39,18 +39,10 @@ def add_geolocation(image_path, latitude, longitude):
 
     print("Geolocation data added to", image_path)
 
-# # Example usage
-# latitude = 52.9483758  # Example latitude coordinates
-# longitude = -1.1481887  # Example longitude coordinates
-# image_path = 'peak.jpg'  # Path to your image
-
-# add_geolocation(image_path, latitude, longitude)
-
-
 def main():
     folder_path = os.getcwd()
-    new_latitude = 52.9483758  # Replace with your desired latitude
-    new_longitude = -1.1481887  # Replace with your desired longitude
+    new_latitude = 52.9483758  
+    new_longitude = -1.1481887  
 
     for filename in os.listdir(folder_path):
         if filename.lower().endswith(('.jpg', '.jpeg')):
